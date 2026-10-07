@@ -1,0 +1,12 @@
+
+Impianto fotovoltaico,Manuale,0,1.5,1
+Lavatrice,CP,110,-2.0,2
+Lavastoviglie,CP,195,-1.5,1
+Tapparelle elettriche,CP,1,-0.3,3
+Scaldabagno,Manuale,0,-1.0,3
+Frigorifero,Manuale,0,-0.4,1
+Forno a microonde,CP,2,-0.8,3
+Asciugatrice,CP,60,-0.5,2
+Televisore,CP,60,-0.2,2
+Fornelli,Manuale,0,-1.6,1
+Pompa di calore con termostato,Manuale,0,-2.0,3

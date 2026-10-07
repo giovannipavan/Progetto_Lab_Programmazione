@@ -1,0 +1,49 @@
+set Lavatrice off
+set Lavatrice on
+set Lavatrice on
+set Lavatrice 02:00
+set time 04:00
+show Lavatrice
+set Lavatrice 07:00
+set Lavatrice 05:00
+set Lavatrice 06:00
+set time 06:00
+print
+set Lavatrice off
+print 
+set time 09:00
+show Lavatrice
+set Lavatrice on 
+set time 10:00
+set Lavatrice off 
+set Lavatrice 8:00
+show Lavatrice
+set time 12:00
+set Scaldabagno off
+set Scaldabagno on
+set Scaldabagno on 
+set time 13:00
+set Scaldabagno off
+show Scaldabagno
+set Scaldabagno 14:00 09:00
+set Scaldabagno 13:30 14:00
+set Scaldabagno 13:20 15:00
+set Scaldabagno 13:50
+set Scaldabagno 14:05 14:35
+set time 14:40
+set Scaldabagno 15:00 15:30
+set Scaldabagno on
+set time 15:40
+set Scaldabagno 15:50
+set Scaldabagno 16:10
+set time 16:00
+set Scaldabagno off
+print 
+set Scaldabagno 17:15
+set Scaldabagno 17:20 17:30 
+set Scaldabagno 18:00 18:10
+set Scaldabagno 16:15
+set Scaldabagno 16:20 16:30
+set time 19:00
+show 
+0

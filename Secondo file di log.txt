@@ -1,0 +1,399 @@
+﻿Inserisci il consumo massimo o premi Invio se vuoi che il consumo sia impostato in automatico: Valore del consumo impostato in automatico.
+Il consumo massimo è stato impostato a 3.5 kW.
+Tutti i dispositivi sono pronti all'uso. 
+
+
+Inserisci comando 
+
+
+- set Frigorifero on 
+
+
+[00:00] L’orario attuale è 00:00
+Il dispositivo 'Frigorifero' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Pompa di calore con termostato 6:00 8:00
+
+
+[00:00] L’orario attuale è 00:00
+Impostato un timer per il dispositivo 'Pompa di calore con termostato' dalle [06:00] alle [08:00]
+
+
+Inserisci comando 
+
+
+- set Impianto fotovoltaico 10:00 17:00
+
+
+[00:00] L’orario attuale è 00:00
+Impostato un timer per il dispositivo 'Impianto fotovoltaico' dalle [10:00] alle [17:00]
+
+
+Inserisci comando 
+
+
+- set Tapparelle elettriche 7:00
+
+
+[00:00] L’orario attuale è 00:00
+Il dispositivo 'Tapparelle elettriche' si accenderà alle [07:00]
+
+
+Inserisci comando 
+
+
+- set time 7:10
+
+
+[00:00] L’orario attuale è 00:00
+[06:00] il dispositivo 'Pompa di calore con termostato' si è acceso
+[07:00] il dispositivo 'Tapparelle elettriche' si è acceso
+[07:01] il dispositivo 'Tapparelle elettriche' si è spento
+[07:10] L’orario attuale è 07:10
+
+
+Inserisci comando 
+
+
+- set Forno a microonde on
+
+
+[07:10] L’orario attuale è 07:10
+Il dispositivo 'Forno a microonde' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Televisore on 
+
+
+[07:10] L’orario attuale è 07:10
+Il dispositivo 'Televisore' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Fornelli on 
+
+
+[07:10] L’orario attuale è 07:10
+Il dispositivo 'Fornelli' si è acceso 
+
+
+Inserisci comando 
+
+
+- set time 7:30
+
+
+[07:10] L’orario attuale è 07:10
+[07:11] Il sistema sta consumando: -5.000000 kW, rispetto ai  3.500000 kW disponibili, procedo a  rimuovo Forno a microonde
+[07:11] Il sistema sta consumando: -4.200000 kW, rispetto ai  3.500000 kW disponibili, procedo a  rimuovo Pompa di calore con termostato
+[07:30] L’orario attuale è 07:30
+
+
+Inserisci comando 
+
+
+- set Televisore off
+
+
+[07:30] L’orario attuale è 07:30
+Il dispositivo 'Televisore' si è spento 
+
+
+Inserisci comando 
+
+
+- set Fornelli off
+
+
+[07:30] L’orario attuale è 07:30
+Il dispositivo 'Fornelli' si è spento 
+
+
+Inserisci comando 
+
+
+- set Scaldabagno 13:00 14:00
+
+
+[07:30] L’orario attuale è 07:30
+Impostato un timer per il dispositivo 'Scaldabagno' dalle [13:00] alle [14:00]
+
+
+Inserisci comando 
+
+
+- set time 12:00
+
+
+[07:30] L’orario attuale è 07:30
+[10:00] il dispositivo 'Impianto fotovoltaico' si è acceso
+[12:00] L’orario attuale è 12:00
+
+
+Inserisci comando 
+
+
+- set Fornelli 12:10 12:30
+
+
+[12:00] L’orario attuale è 12:00
+Impostato un timer per il dispositivo 'Fornelli' dalle [12:10] alle [12:30]
+
+
+Inserisci comando 
+
+
+- set Forno a microonde on 
+
+
+[12:00] L’orario attuale è 12:00
+Il dispositivo 'Forno a microonde' si è acceso 
+
+
+Inserisci comando 
+
+
+- set time 12:40
+
+
+[12:00] L’orario attuale è 12:00
+[12:02] il dispositivo 'Forno a microonde' si è spento
+[12:10] il dispositivo 'Fornelli' si è acceso
+[12:30] il dispositivo 'Fornelli' si è spento
+[12:40] L’orario attuale è 12:40
+
+
+Inserisci comando 
+
+
+- rm Scaldabagno
+
+
+[12:40] L’orario attuale è 12:40
+Rimosso il timer dal dispositivo 'Scaldabagno' 
+
+
+Inserisci comando 
+
+
+- set Lavastoviglie on 
+
+
+[12:40] L’orario attuale è 12:40
+Il dispositivo 'Lavastoviglie' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Lavatrice 13:00
+
+
+[12:40] L’orario attuale è 12:40
+Il dispositivo 'Lavatrice' si accenderà alle [13:00]
+
+
+Inserisci comando 
+
+
+- print 
+
+
+[12:40] L’orario attuale è 12:40
+ID: 1, Nome: Impianto fotovoltaico, Consumo: 1.500000, Priorità: 1, Stato: acceso
+ID: 2, Nome: Lavatrice, Consumo: 0.000000, Priorità: 2, Stato: spento
+ID: 3, Nome: Lavastoviglie, Consumo: -1.500000, Priorità: 1, Stato: acceso
+ID: 4, Nome: Tapparelle elettriche, Consumo: 0.000000, Priorità: 3, Stato: spento
+ID: 5, Nome: Scaldabagno, Consumo: 0.000000, Priorità: 3, Stato: spento
+ID: 6, Nome: Frigorifero, Consumo: -0.400000, Priorità: 1, Stato: acceso
+ID: 7, Nome: Forno a microonde, Consumo: 0.000000, Priorità: 3, Stato: spento
+ID: 8, Nome: Asciugatrice, Consumo: 0.000000, Priorità: 2, Stato: spento
+ID: 9, Nome: Televisore, Consumo: 0.000000, Priorità: 2, Stato: spento
+ID: 10, Nome: Fornelli, Consumo: 0.000000, Priorità: 1, Stato: spento
+ID: 11, Nome: Pompa di calore con termostato, Consumo: 0.000000, Priorità: 3, Stato: spento
+
+
+Inserisci comando 
+
+
+- set time 18:00
+
+
+[12:40] L’orario attuale è 12:40
+[13:00] il dispositivo 'Lavatrice' si è acceso
+[14:50] il dispositivo 'Lavatrice' si è spento
+[15:55] il dispositivo 'Lavastoviglie' si è spento
+[17:00] il dispositivo 'Impianto fotovoltaico' si è spento
+[18:00] L’orario attuale è 18:00
+
+
+Inserisci comando 
+
+
+- set Asciugatrice on 
+
+
+[18:00] L’orario attuale è 18:00
+Il dispositivo 'Asciugatrice' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Lavatrice on 
+
+
+[18:00] L’orario attuale è 18:00
+Il dispositivo 'Lavatrice' si è acceso 
+
+
+Inserisci comando 
+
+
+- set time 20:00
+
+
+[18:00] L’orario attuale è 18:00
+[19:00] il dispositivo 'Asciugatrice' si è spento
+[19:50] il dispositivo 'Lavatrice' si è spento
+[20:00] L’orario attuale è 20:00
+
+
+Inserisci comando 
+
+
+- set Scaldabagno 20:10 20:30
+
+
+[20:00] L’orario attuale è 20:00
+Impostato un timer per il dispositivo 'Scaldabagno' dalle [20:10] alle [20:30]
+
+
+Inserisci comando 
+
+
+- set Scaldabagno 20:45 21:00
+
+
+[20:00] L’orario attuale è 20:00
+Impostato un timer per il dispositivo 'Scaldabagno' dalle [20:45] alle [21:00]
+
+
+Inserisci comando 
+
+
+- set Fornelli 20:10 20:30
+
+
+[20:00] L’orario attuale è 20:00
+Impostato un timer per il dispositivo 'Fornelli' dalle [20:10] alle [20:30]
+
+
+Inserisci comando 
+
+
+- reset timers 
+
+
+[20:00] L’orario attuale è 20:00
+Timer eliminati per il dispositivo 'Impianto fotovoltaico' 
+Timer eliminati per il dispositivo 'Scaldabagno' 
+Timer eliminati per il dispositivo 'Fornelli' 
+Timer eliminati per il dispositivo 'Pompa di calore con termostato' 
+
+
+Inserisci comando 
+
+
+- set time 21:00
+
+
+[20:00] L’orario attuale è 20:00
+[21:00] L’orario attuale è 21:00
+
+
+Inserisci comando 
+
+
+- set Tapparelle elettriche on 
+
+
+[21:00] L’orario attuale è 21:00
+Il dispositivo 'Tapparelle elettriche' si è acceso 
+
+
+Inserisci comando 
+
+
+- set Televisore 21:10
+
+
+[21:00] L’orario attuale è 21:00
+Il dispositivo 'Televisore' si accenderà alle [21:10]
+
+
+Inserisci comando 
+
+
+- set Scaldabagno 21:15 21:30 
+
+
+[21:00] L’orario attuale è 21:00
+Impostato un timer per il dispositivo 'Scaldabagno' dalle [21:15] alle [21:30]
+
+
+Inserisci comando 
+
+
+- set time 22:00
+
+
+[21:00] L’orario attuale è 21:00
+[21:01] il dispositivo 'Tapparelle elettriche' si è spento
+[21:10] il dispositivo 'Televisore' si è acceso
+[21:15] il dispositivo 'Scaldabagno' si è acceso
+[21:30] il dispositivo 'Scaldabagno' si è spento
+[22:00] L’orario attuale è 22:00
+
+
+Inserisci comando 
+
+
+- show
+
+
+[22:00] L’orario attuale è 22:00
+
+
+Attualmente il sistema ha prodotto 0kW e ha consumato -9.03333kW
+Il dispositivo Impianto fotovoltaico ha consumato: 10.500000kW
+Il dispositivo Lavatrice ha consumato: -7.333333kW
+Il dispositivo Lavastoviglie ha consumato: -4.875000kW
+Il dispositivo Tapparelle elettriche ha consumato: -0.010000kW
+Il dispositivo Scaldabagno ha consumato: -0.250000kW
+Il dispositivo Frigorifero ha consumato: -8.800000kW
+Il dispositivo Forno a microonde ha consumato: -0.040000kW
+Il dispositivo Asciugatrice ha consumato: -0.500000kW
+Il dispositivo Televisore ha consumato: -0.233333kW
+Il dispositivo Fornelli ha consumato: -1.066667kW
+Il dispositivo Pompa di calore con termostato ha consumato: -2.366667kW
+
+
+
+
+Inserisci comando 
+
+
+- 0
+
+
+[22:00] L’orario attuale è 22:00
