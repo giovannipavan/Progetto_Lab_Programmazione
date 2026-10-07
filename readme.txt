@@ -3,7 +3,7 @@
 Progetto Finale 
 
 Informazioni Utili per capire il programma
-
+Creazione di una Casa Domotica
 
 1. Lettura dei dispositivi:
   - Leggiamo i vari dispositivi da un file txt (Lista Elettrodomestici) dove si acquisisce la lista degli elettrodomestici, importante per il funzionamento.
